@@ -1,43 +1,132 @@
 {
   "questions": [
     {
-      "id": "sample-1",
-      "topic": "Cybersecurity basics",
-      "question": "Which three properties form the CIA triad in information security?",
+      "id": "w12-q1",
+      "topic": "Week 12 · GDPR & Privacy",
+      "question": "Under GDPR, which are accurate requirements? (1) Transparency about collection, use, and storage of personal data. (2) Consumer control over how their data is used.",
       "options": [
-        "Confidentiality, Integrity, Availability",
-        "Control, Inspection, Authentication",
-        "Confidentiality, Identification, Authorization",
-        "Cryptography, Integrity, Access"
+        "A. Only (2) is true",
+        "B. Only (1) is true",
+        "C. (1) and (2) are true",
+        "D. (1) and (2) are false"
+      ],
+      "answer": 2,
+      "explanation": "GDPR emphasizes transparent processing and gives individuals rights over their personal data."
+    },
+    {
+      "id": "w12-q2",
+      "topic": "Week 12 · Privacy valuation",
+      "question": "WTA for giving up held data is much higher than WTP to protect it, attributed to loss aversion. Which concept explains this?",
+      "options": [
+        "A. Privacy calculus and rational disclosure",
+        "B. Prospect Theory explains why WTA exceeds WTP",
+        "C. Differential privacy and plausible deniability",
+        "D. Privacy as a derivative right"
+      ],
+      "answer": 1,
+      "explanation": "Prospect Theory helps explain why losses can feel more significant than equivalent gains."
+    },
+    {
+      "id": "w12-q3",
+      "topic": "Week 12 · Privacy valuation",
+      "question": "Why does understanding users' valuation of personal data protection matter strategically for a business?",
+      "options": [
+        "A. It helps develop privacy-enhancing initiatives that provide a competitive advantage",
+        "B. It allows policies to ignore consumer preference",
+        "C. It enables maximum commercial use of personal data",
+        "D. It facilitates markets where individuals monetize data"
       ],
       "answer": 0,
-      "explanation": "The CIA triad stands for Confidentiality, Integrity, and Availability. This is a sample question."
+      "explanation": "Understanding privacy preferences can help businesses build trust and differentiate their services."
     },
     {
-      "id": "sample-2",
-      "topic": "Cryptography",
-      "question": "What is the primary purpose of hashing in a typical integrity-checking workflow?",
+      "id": "w12-q4",
+      "topic": "Week 12 · Privacy calculus",
+      "question": "Before disclosing data, individuals weigh perceived risks against expected benefits. Which theory describes this?",
       "options": [
-        "To recover the original plaintext",
-        "To produce a fixed-length digest used to detect changes",
-        "To encrypt data with a public key",
-        "To compress a file so it can be restored"
+        "A. People are motivated solely by benefits",
+        "B. People make irrational disclosure decisions",
+        "C. Privacy calculus: a cost-benefit analysis governs disclosure",
+        "D. Individuals have no control over disclosure"
       ],
-      "answer": 1,
-      "explanation": "A hash function produces a digest that can help detect changes. Hashing alone is not encryption."
+      "answer": 2,
+      "explanation": "Privacy calculus describes weighing perceived risks against benefits before sharing information."
     },
     {
-      "id": "sample-3",
-      "topic": "Network security",
-      "question": "What is the main role of a firewall?",
+      "id": "w12-q5",
+      "topic": "Week 12 · Privacy-preserving design",
+      "question": "Which architecture minimizes personal data shared with a central authority, such as in contact tracing?",
       "options": [
-        "Guarantee that all malware is removed",
-        "Regulate network traffic according to rules",
-        "Create stronger passwords automatically",
-        "Replace all software updates"
+        "A. Mandatory participation",
+        "B. Prioritize public health over privacy",
+        "C. Centralized storage of all data",
+        "D. Decentralized, privacy-preserving architecture minimizing data sharing"
+      ],
+      "answer": 3,
+      "explanation": "Decentralized design can reduce the personal information held by a central authority."
+    },
+    {
+      "id": "w12-q6",
+      "topic": "Week 12 · Prospect theory",
+      "question": "Prospect theory predicts that when people face a potential privacy loss versus an equivalent gain:",
+      "options": [
+        "A. Losses are felt more intensely than equivalent gains",
+        "B. People only maximize financial gains",
+        "C. Gains and losses are valued equally",
+        "D. People are more risk-seeking for gains"
+      ],
+      "answer": 0,
+      "explanation": "Loss aversion means equivalent losses generally have a stronger psychological impact than gains."
+    },
+    {
+      "id": "w12-q7",
+      "topic": "Week 12 · Privacy valuation",
+      "question": "The same personal data is valued differently by different people and in different contexts. What does this indicate?",
+      "options": [
+        "A. Valuation is consistent across people and contexts",
+        "B. It varies based on context and circumstances",
+        "C. It remains stable over time",
+        "D. It is determined solely by market factors"
       ],
       "answer": 1,
-      "explanation": "A firewall filters or controls network traffic according to configured rules."
+      "explanation": "Privacy valuation is subjective and depends on the person, situation, purpose, and perceived risks."
+    },
+    {
+      "id": "w12-q8",
+      "topic": "Week 12 · Responsible ML",
+      "question": "Which is a valid component of responsible privacy protection in ML design?",
+      "options": [
+        "A. Protect privacy in the model, collect data responsibly, and use on-device processing where feasible",
+        "B. Collect maximum data, then restrict access after training",
+        "C. Rely only on legal disclaimers",
+        "D. Treat privacy as a one-time deployment checkbox"
+      ],
+      "answer": 0,
+      "explanation": "Responsible ML combines appropriate collection with technical safeguards; on-device processing can reduce data sharing."
+    },
+    {
+      "id": "w12-q9",
+      "topic": "Week 12 · Privacy valuation",
+      "question": "WTA valuations tend to be substantially higher than WTP valuations for the same privacy good.",
+      "options": [
+        "A. True",
+        "B. False"
+      ],
+      "answer": 0,
+      "explanation": "This WTA–WTP gap is commonly explained in part by loss aversion."
+    },
+    {
+      "id": "w12-q10",
+      "topic": "Week 12 · Data protection law",
+      "question": "Under the Digital Personal Data Protection Bill, 2022, what is the individual whose personal data is processed and who can give or withdraw consent called?",
+      "options": [
+        "A. Data Protection Officer",
+        "B. Data Processor",
+        "C. Data Fiduciary",
+        "D. Data Principal"
+      ],
+      "answer": 3,
+      "explanation": "The Bill uses Data Principal for the individual to whom the personal data relates."
     }
   ]
 }
