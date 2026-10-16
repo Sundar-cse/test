@@ -1,0 +1,43 @@
+{
+  "questions": [
+    {
+      "id": "sample-1",
+      "topic": "Cybersecurity basics",
+      "question": "Which three properties form the CIA triad in information security?",
+      "options": [
+        "Confidentiality, Integrity, Availability",
+        "Control, Inspection, Authentication",
+        "Confidentiality, Identification, Authorization",
+        "Cryptography, Integrity, Access"
+      ],
+      "answer": 0,
+      "explanation": "The CIA triad stands for Confidentiality, Integrity, and Availability. This is a sample question."
+    },
+    {
+      "id": "sample-2",
+      "topic": "Cryptography",
+      "question": "What is the primary purpose of hashing in a typical integrity-checking workflow?",
+      "options": [
+        "To recover the original plaintext",
+        "To produce a fixed-length digest used to detect changes",
+        "To encrypt data with a public key",
+        "To compress a file so it can be restored"
+      ],
+      "answer": 1,
+      "explanation": "A hash function produces a digest that can help detect changes. Hashing alone is not encryption."
+    },
+    {
+      "id": "sample-3",
+      "topic": "Network security",
+      "question": "What is the main role of a firewall?",
+      "options": [
+        "Guarantee that all malware is removed",
+        "Regulate network traffic according to rules",
+        "Create stronger passwords automatically",
+        "Replace all software updates"
+      ],
+      "answer": 1,
+      "explanation": "A firewall filters or controls network traffic according to configured rules."
+    }
+  ]
+}
