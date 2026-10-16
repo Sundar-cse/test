@@ -1,6 +1,134 @@
 {
   "questions": [
     {
+      "id": "w1-q1",
+      "topic": "Week 1 · Social engineering",
+      "question": "An attacker calls an employee, claims to be from the IT helpdesk, and convinces them to reveal their login credentials. Which technique is being used?",
+      "options": [
+        "Social Engineering",
+        "Session Hijacking",
+        "Brute Force Attack",
+        "SQL Injection"
+      ],
+      "answer": 0,
+      "explanation": "Social engineering manipulates people into revealing information or taking unsafe actions."
+    },
+    {
+      "id": "w1-q2",
+      "topic": "Week 1 · Threats and tools",
+      "question": "An attacker uses a commercially available penetration testing toolkit to probe and exploit vulnerabilities in a target network. In this context, the toolkit represents technology functioning as:",
+      "options": [
+        "A source of threat",
+        "A compliance monitoring tool",
+        "A business continuity asset",
+        "A safeguard against external threats"
+      ],
+      "answer": 0,
+      "explanation": "A tool can be misused by an attacker and therefore act as part of a threat source."
+    },
+    {
+      "id": "w1-q3",
+      "topic": "Week 1 · Phishing",
+      "question": "A threat actor sends a carefully researched email to a senior finance executive, referencing their recent business trip and impersonating their CEO. Which attack type does this describe?",
+      "options": [
+        "Spear-phishing",
+        "Vishing",
+        "General phishing",
+        "Smishing"
+      ],
+      "answer": 0,
+      "explanation": "Spear-phishing is a targeted phishing attempt customized for a particular person or role."
+    },
+    {
+      "id": "w1-q4",
+      "topic": "Week 1 · Malware",
+      "question": "A victim attempts to open their files after a malware infection but finds every document locked behind an unknown cipher. The attacker then demands payment for the decryption key. Which malware category best explains this behavior?",
+      "options": [
+        "Ransomware",
+        "Spyware",
+        "Rootkit",
+        "Adware"
+      ],
+      "answer": 0,
+      "explanation": "Ransomware locks or encrypts data and demands payment for restoration."
+    },
+    {
+      "id": "w1-q5",
+      "topic": "Week 1 · Critical infrastructure",
+      "question": "A national government wants to safeguard systems that, if disrupted, could destabilize essential public services. Which system type would be the highest priority under Critical Infrastructure Protection (CIP)?",
+      "options": [
+        "SCADA systems managing water treatment and power distribution",
+        "Consumer mobile apps and entertainment platforms",
+        "University learning management systems",
+        "Home automation devices"
+      ],
+      "answer": 0,
+      "explanation": "SCADA systems can control essential industrial processes such as water treatment and power distribution."
+    },
+    {
+      "id": "w1-q6",
+      "topic": "Week 1 · Information security",
+      "question": "Deploying a firewall alone is sufficient to constitute a complete Information Security program for an organization.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": 0,
+      "explanation": "False. Information security requires layered technical, administrative, and physical controls, not just a firewall."
+    },
+    {
+      "id": "w1-q7",
+      "topic": "Week 1 · Data confidentiality",
+      "question": "A security manager wants to ensure that sensitive organizational data cannot be accessed by unauthorized individuals. Which combination of measures best achieves this?",
+      "options": [
+        "Information classification, secure storage, and enforced access policies",
+        "Open access for all staff to improve collaboration efficiency",
+        "Faster network speeds and upgraded hardware",
+        "Regular system reboots and software updates only"
+      ],
+      "answer": 0,
+      "explanation": "Classification helps identify sensitivity, while secure storage and access controls restrict unauthorized access."
+    },
+    {
+      "id": "w1-q8",
+      "topic": "Week 1 · Privacy and PHI",
+      "question": "A hospital receptionist verbally shares a patient's diagnosis and full name with a visitor who claims to be a relative but has no verified authorization. Which category of violation does this represent?",
+      "options": [
+        "A breach involving Protected Health Information (PHI)",
+        "A breach of general data privacy with no specific regulatory consequence",
+        "An acceptable disclosure under standard hospital protocols",
+        "A network security incident requiring IT intervention"
+      ],
+      "answer": 0,
+      "explanation": "A patient's identifiable diagnosis is sensitive health information; disclosing it without authorization can be a PHI breach."
+    },
+    {
+      "id": "w1-q9",
+      "topic": "Week 1 · CIA triad",
+      "question": "During an audit, a database record is found to have been silently modified by an unauthorized party. Which information security property has been violated?",
+      "options": [
+        "Integrity",
+        "Availability",
+        "Authenticity",
+        "Confidentiality"
+      ],
+      "answer": 0,
+      "explanation": "Integrity means data remains accurate and unaltered except through authorized changes."
+    },
+    {
+      "id": "w1-q10",
+      "topic": "Week 1 · Information security",
+      "question": "An organization rolls out a data classification scheme, runs employee awareness sessions, and deploys endpoint security tools. Collectively, these efforts are best described as implementing:",
+      "options": [
+        "Information Security",
+        "Operations Security",
+        "Network Security",
+        "Physical Security"
+      ],
+      "answer": 0,
+      "explanation": "Information security combines policies, people, processes, and technical controls to protect information."
+    },
+    {
       "id": "w12-q1",
       "topic": "Week 12 · GDPR & Privacy",
       "question": "Under GDPR, which are accurate requirements? (1) Transparency about collection, use, and storage of personal data. (2) Consumer control over how their data is used.",
