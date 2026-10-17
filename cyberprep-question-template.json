@@ -255,6 +255,137 @@
       ],
       "answer": 3,
       "explanation": "The Bill uses Data Principal for the individual to whom the personal data relates."
+    },
+    {
+      "id": "w2-q1",
+      "topic": "Week 2 · Authenticity",
+      "question": "The attribute that describes whether information is genuine and original rather than reproduced or fabricated is called Authenticity, not Accuracy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "True. Authenticity concerns whether information or its source is genuine; accuracy concerns correctness."
+    },
+    {
+      "id": "w2-q2",
+      "topic": "Week 2 · Access control",
+      "question": "A new IT manager wants to tighten access controls without disrupting productivity. Which of the following practices should they implement? (Select all that apply)",
+      "options": [
+        "Maintaining and auditing access logs to detect anomalies",
+        "Periodically reviewing and revoking unnecessary user access rights",
+        "Assigning permissions based on each employee's role and responsibilities",
+        "Providing all staff with administrator-level access to avoid bottlenecks"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "multi": true,
+      "explanation": "Audit logs, periodic access reviews, and role-based permissions strengthen access control. Giving everyone administrator access violates least privilege."
+    },
+    {
+      "id": "w2-q3",
+      "topic": "Week 2 · Security frameworks",
+      "question": "A CISO needs a structured model to assess whether their organization's security program adequately covers the goals, data states, and control types relevant to protecting information. Which model was specifically designed for this purpose?",
+      "options": [
+        "McCumber Cube",
+        "OSI Model",
+        "CIA Triad",
+        "STRIDE Model"
+      ],
+      "answer": 0,
+      "explanation": "The McCumber Cube organizes information security across security goals, information states, and safeguards/control types."
+    },
+    {
+      "id": "w2-q4",
+      "topic": "Week 2 · Vulnerabilities and exploits",
+      "question": "A developer ships a web application with an unvalidated input field that allows attackers to inject SQL commands. Before any attack occurs, this unvalidated field is best described as:",
+      "options": [
+        "A vulnerability",
+        "A threat",
+        "An exploit",
+        "An attack vector in active use"
+      ],
+      "answer": 0,
+      "explanation": "A vulnerability is a weakness that could be exploited. The weakness exists even before an attacker uses it."
+    },
+    {
+      "id": "w2-q5",
+      "topic": "Week 2 · Detection outcomes",
+      "question": "When malware slips through a detection system unidentified and causes damage, this is an example of a False Negative.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "True. A false negative occurs when a real threat is incorrectly classified as safe or goes undetected."
+    },
+    {
+      "id": "w2-q6",
+      "topic": "Week 2 · Security frameworks",
+      "question": "A security analyst maps their controls across three axes: security goals, data states, and control types. Which framework are they applying, and which dimension addresses how data exists at any given moment?",
+      "options": [
+        "McCumber Cube; the second dimension",
+        "CIA Triad; the first dimension",
+        "NIST CSF; the third dimension",
+        "COBIT; the second dimension"
+      ],
+      "answer": 0,
+      "explanation": "The McCumber Cube includes information states (such as storage, processing, and transmission), alongside security goals and safeguards."
+    },
+    {
+      "id": "w2-q7",
+      "topic": "Week 2 · Detection outcomes",
+      "question": "A security tool quarantines a trusted internal application used daily by the finance team, flagging it as malware. Operations come to a halt. How is this detection outcome classified?",
+      "options": [
+        "False Positive — a safe file was incorrectly flagged as malicious",
+        "True Positive — the threat was correctly identified",
+        "True Negative — a safe file was correctly cleared",
+        "False Negative — a real threat was missed by the system"
+      ],
+      "answer": 0,
+      "explanation": "A false positive occurs when a safe item is incorrectly flagged as malicious."
+    },
+    {
+      "id": "w2-q8",
+      "topic": "Week 2 · Information systems",
+      "question": "A server sends data packets to a workstation across an office. Which component of the information system made this transfer possible?",
+      "options": [
+        "The network infrastructure",
+        "The server's mainframe processor",
+        "The operating system software",
+        "The stored data files"
+      ],
+      "answer": 0,
+      "explanation": "Network infrastructure connects devices and carries data between them."
+    },
+    {
+      "id": "w2-q9",
+      "topic": "Week 2 · Phishing",
+      "question": "An employee receives an email from 'support@micros0ft.com' asking them to click a link and reset their password. What is the most appropriate immediate response?",
+      "options": [
+        "Verify the sender's legitimacy independently and avoid clicking any links",
+        "Open the attachment to verify the content before deciding",
+        "Forward it to colleagues to check if they received the same email",
+        "Click the link since the sender mentions Microsoft"
+      ],
+      "answer": 0,
+      "explanation": "The lookalike domain is suspicious. Verify through a trusted channel and avoid links in unexpected messages."
+    },
+    {
+      "id": "w2-q10",
+      "topic": "Week 2 · Vulnerabilities and exploits",
+      "question": "An attacker crafts a SQL injection string that takes advantage of an unvalidated input field to dump an entire customer database. The crafted string itself is best described as:",
+      "options": [
+        "An exploit",
+        "A vulnerability",
+        "A threat agent",
+        "A security patch"
+      ],
+      "answer": 0,
+      "explanation": "The crafted input is an exploit: it uses a vulnerability to cause an unintended action."
     }
   ]
 }
