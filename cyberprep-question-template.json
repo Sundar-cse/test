@@ -514,6 +514,132 @@
       ],
       "answer": 0,
       "explanation": "ISO 31000 provides risk management guidance, while ISO/IEC 27001 specifies requirements for an information security management system."
+    },
+    {
+      "id": "w4-q1",
+      "topic": "Week 4 · Contingency planning",
+      "question": "A ______ is prepared by an organization to anticipate, react to, and recover from events that threaten the security of its information and information assets.",
+      "options": [
+        "Disaster Recovery Plan",
+        "Incident Response Plan",
+        "Contingency Plan",
+        "Business Continuity Plan"
+      ],
+      "answer": 2,
+      "explanation": "A Contingency Plan provides an overall approach for preparing for and recovering from disruptive events affecting information and information assets."
+    },
+    {
+      "id": "w4-q2",
+      "topic": "Week 4 · Business resumption planning",
+      "question": "Business Resumption Planning (BRP) consists of actions taken by senior management to develop and implement a combined ______ and ______, and a set of recovery teams.",
+      "options": [
+        "Disaster Recovery Plan and Business Continuity Plan",
+        "Incident Response Plan and Business Continuity Plan",
+        "Contingency Plan and Disaster Recovery Plan",
+        "Disaster Recovery Plan and Incident Response Plan"
+      ],
+      "answer": 0,
+      "explanation": "BRP coordinates disaster recovery and business continuity planning, supported by recovery teams."
+    },
+    {
+      "id": "w4-q3",
+      "topic": "Week 4 · Planning levels",
+      "question": "Which statement about strategic, tactical, and operational planning is NOT true?",
+      "options": [
+        "Tactical planning focuses on short-term undertakings that may be completed within one or two years.",
+        "An operational plan outlines required tasks, communication, and reporting requirements.",
+        "Strategic planning sets the organization's long-term direction.",
+        "Operational plans are used to create tactical plans, which in turn are used to develop strategic plans."
+      ],
+      "answer": 3,
+      "explanation": "The usual direction is strategic plans guiding tactical plans, which then guide operational plans—not the reverse."
+    },
+    {
+      "id": "w4-q4",
+      "topic": "Week 4 · Incident response planning",
+      "question": "Incident response planning comprises four phases: incident planning, incident detection, incident reaction, and incident recovery.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "These four phases describe the incident response planning model used in this assignment."
+    },
+    {
+      "id": "w4-q5",
+      "topic": "Week 4 · Business impact analysis",
+      "question": "Which statements about Business Impact Analysis (BIA) are true?\nI. BIA assesses adverse events and identifies critical systems and recovery priorities.\nII. After the contingency planning policy is developed, conducting BIA is the next step.\nIII. BIA is a preparatory activity common to contingency planning and risk management.\nIV. The initial BIA phase evaluates and prioritizes business processes by their contribution to the organization's mission.",
+      "options": [
+        "Only II and IV are true",
+        "Only I and III are true",
+        "Only I, II, and III are true",
+        "I, II, III, and IV are true"
+      ],
+      "answer": 3,
+      "explanation": "All four statements describe BIA's role in identifying critical business functions, impacts, and recovery priorities."
+    },
+    {
+      "id": "w4-q6",
+      "topic": "Week 4 · Recovery objectives",
+      "question": "The total amount of time the system owner or authorizing official is willing to accept for a business process outage or disruption, including all impact considerations, is known as:",
+      "options": [
+        "Work Recovery Time",
+        "Maximum Tolerable Downtime",
+        "Maximum Recovery Time",
+        "Recovery Point Objective"
+      ],
+      "answer": 1,
+      "explanation": "Maximum Tolerable Downtime (MTD) is the maximum acceptable duration of a business process disruption."
+    },
+    {
+      "id": "w4-q7",
+      "topic": "Week 4 · IRP, DRP, and BCP",
+      "question": "Which statement about incident response, disaster recovery, and business continuity planning is NOT true?",
+      "options": [
+        "An incident response plan focuses on immediate response; severe incidents may require disaster recovery and business continuity plans.",
+        "A disaster recovery plan typically focuses on restoring systems after a disaster.",
+        "A business continuity plan is needed only when the disaster recovery plan fails and requires only simple restoration of information resources.",
+        "A business continuity plan establishes critical business functions at an alternate site."
+      ],
+      "answer": 2,
+      "explanation": "BCP is not activated only if DRP fails. It helps maintain or restore critical business functions during disruption; DRP focuses more specifically on restoring IT systems and infrastructure."
+    },
+    {
+      "id": "w4-q8",
+      "topic": "Week 4 · Incident indicators",
+      "question": "Which option lists definite indicators of incidents?",
+      "options": [
+        "Use of dormant accounts, changes to logs, presence of hacker tools, and notifications by a partner or peer.",
+        "Activities at unexpected times, notifications by partners or peers, unusual system crashes, and unknown programs or processes.",
+        "Notifications from IDPS, presence of new accounts, unusual system crashes, and use of dormant accounts.",
+        "Unusual consumption of computing resources, changes to logs, unusual system crashes, and unfamiliar files."
+      ],
+      "answer": 1,
+      "explanation": "Unexpected activity times, partner/peer notifications, unusual crashes, and unknown programs or processes are the indicators identified in this assignment."
+    },
+    {
+      "id": "w4-q9",
+      "topic": "Week 4 · Incident classification",
+      "question": "Incident classification is the process of examining an incident candidate and determining whether it constitutes an actual incident.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "Classification evaluates a suspected event to determine whether it meets the definition of an actual incident."
+    },
+    {
+      "id": "w4-q10",
+      "topic": "Week 4 · Recovery facilities",
+      "question": "A fully configured computing facility that includes all services, communications links, and physical plant operations, used for business continuity operations, is known as a:",
+      "options": [
+        "Warm Site",
+        "Cold Site",
+        "Hot Site",
+        "Service Bureau"
+      ],
+      "answer": 2,
+      "explanation": "A hot site is a fully equipped alternative facility that can support operations quickly after a disruption."
     }
   ]
 }
