@@ -62,6 +62,12 @@ $('retryBtn').onclick=()=>{let wrong=quiz.questions.filter(q=>!isCorrect(q,quiz.
 $('resetBtn').onclick=()=>{if(confirm('Reset all saved progress and imported questions on this device?')){localStorage.removeItem(KEY);data={bank:SAMPLE,attempts:{},sessions:[],days:[],custom:false};selectedWeeks=null;render();msg('Progress reset.','success')}};
 $('fileInput').onchange=async e=>{let f=e.target.files[0];if(!f)return;try{let j=JSON.parse(await f.text()),qs=Array.isArray(j)?j:j.questions;if(!Array.isArray(qs)||!qs.length)throw Error('Expected a non-empty questions array.');let clean=qs.map((q,i)=>{if(!q.question||!Array.isArray(q.options)||q.options.length<2)throw Error('Question '+(i+1)+' needs question text and options.');let a=q.answer;if(typeof a==='string'){let ix=q.options.indexOf(a);if(ix>=0)a=ix;else if(/^[0-3]$/.test(a))a=+a}if(Array.isArray(a)){if(!a.length||a.some(x=>!Number.isInteger(x)||x<0||x>=q.options.length))throw Error('Invalid multi-select answer for question '+(i+1)+'. Use an array of 0-based option indexes.')}else if(!Number.isInteger(a)||a<0||a>=q.options.length)throw Error('Invalid answer for question '+(i+1)+'. Use a 0-based index or exact option text.');return {id:String(q.id||'import-'+i),topic:String(q.topic||'General'),question:String(q.question),options:q.options.map(String),answer:a,explanation:String(q.explanation||''),multi:Array.isArray(a)}});data.bank=clean;data.custom=true;selectedWeeks=null;data.attempts={};save();render();msg('Imported '+clean.length+' questions successfully.','success')}catch(err){msg('Import failed: '+err.message,'error')}e.target.value=''};
 let savedState=null;try{savedState=JSON.parse(localStorage.getItem(KEY)||'null');if(savedState)data={...data,...savedState}}catch(e){}render();
-// Load the repository question bank on first visit; preserve any bank the learner imports later.
-if(!savedState||!savedState.custom){fetch('./cyberprep-question-template.json').then(r=>{if(!r.ok)throw Error('Question bank unavailable');return r.json()}).then(j=>{if(Array.isArray(j.questions)&&j.questions.length){data.bank=j.questions;data.custom=false;selectedWeeks=null;save();render()}}).catch(()=>{});}
+// Keep the published question bank current. If a learner imported a custom bank, merge in repository questions by ID without deleting their extra questions or saved progress.
+fetch('./cyberprep-question-template.json').then(r=>{if(!r.ok)throw Error('Question bank unavailable');return r.json()}).then(j=>{
+if(Array.isArray(j.questions)&&j.questions.length){
+if(!savedState||!savedState.custom){data.bank=j.questions;data.custom=false;}
+else {const merged=new Map((data.bank||[]).map(q=>[q.id,q]));j.questions.forEach(q=>merged.set(q.id,q));data.bank=[...merged.values()];data.custom=true;}
+selectedWeeks=null;save();render();
+}
+}).catch(()=>{});
 </script></body></html>
