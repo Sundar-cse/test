@@ -1435,6 +1435,130 @@
       ],
       "answer": 0,
       "explanation": "The optimal point balances useful data analysis with an acceptable level of privacy risk."
+    },
+    {
+      "id": "w11-q1",
+      "topic": "Week 11 · GDPR scope",
+      "question": "When does the General Data Protection Regulation (GDPR) apply?",
+      "options": [
+        "Both A and B",
+        "A company processes personal data and is based in the EU, regardless of where the actual data processing takes place.",
+        "A company is established outside the EU but processes personal data in relation to offering goods or services to individuals in the EU, or monitors the behaviour of individuals within the EU.",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "GDPR can apply based on an EU establishment processing personal data and, in specified circumstances, to organizations outside the EU offering goods or services to or monitoring people in the EU."
+    },
+    {
+      "id": "w11-q2",
+      "topic": "Week 11 · International data transfers",
+      "question": "True or False: When personal data is transferred outside the EU, the protection offered by the GDPR need not travel with the data.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": 0,
+      "explanation": "False. Transfers outside the EU must comply with GDPR's international-transfer rules and appropriate safeguards where required."
+    },
+    {
+      "id": "w11-q3",
+      "topic": "Week 11 · Indian IT Act",
+      "question": "The Information Technology (IT) Act in India was first enacted by the Indian Parliament in which year?",
+      "options": [
+        "2000",
+        "2007",
+        "1998",
+        "2004"
+      ],
+      "answer": 0,
+      "explanation": "India's Information Technology Act was enacted in 2000."
+    },
+    {
+      "id": "w11-q4",
+      "topic": "Week 11 · Privacy in India",
+      "question": "Privacy is a fundamental right in India.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "True. The Supreme Court of India recognized the right to privacy as a fundamental right in the 2017 Puttaswamy judgment."
+    },
+    {
+      "id": "w11-q5",
+      "topic": "Week 11 · DPDP Act",
+      "question": "Which of the following rights does the DPDP Act grant to data principals for personal data they have previously given consent for?",
+      "options": [
+        "All the above",
+        "Right to correct",
+        "Right to complete and update",
+        "Right to erasure"
+      ],
+      "answer": 0,
+      "explanation": "The supplied answer key marks 'All the above'; the DPDP Act provides rights to correction/completion and erasure in the circumstances set out by the Act."
+    },
+    {
+      "id": "w11-q6",
+      "topic": "Week 11 · GDPR timeline",
+      "question": "When was the GDPR enforced (became applicable)?",
+      "options": [
+        "May 25, 2018",
+        "April 27, 2016",
+        "June 30, 2017",
+        "July 1, 2019"
+      ],
+      "answer": 0,
+      "explanation": "GDPR entered into application on 25 May 2018. It was adopted in 2016, but the application date was 25 May 2018."
+    },
+    {
+      "id": "w11-q7",
+      "topic": "Week 11 · GDPR legal bases",
+      "question": "Which legal basis for processing personal data applies when someone's life is in danger and processing is necessary to save it?",
+      "options": [
+        "Vital interests",
+        "Consent",
+        "Contract",
+        "Public interest"
+      ],
+      "answer": 0,
+      "explanation": "The vital-interests legal basis can apply when processing is necessary to protect someone's life."
+    },
+    {
+      "id": "w11-q8",
+      "topic": "Week 11 · GDPR breach notification",
+      "question": "Within how many hours does GDPR generally require organizations to notify the supervisory authority of a personal data breach, where notification is required?",
+      "options": [
+        "72 hours",
+        "48 hours",
+        "96 hours",
+        "120 hours"
+      ],
+      "answer": 0,
+      "explanation": "GDPR Article 33 generally requires notification without undue delay and, where feasible, within 72 hours of becoming aware of a personal data breach, unless an exception applies."
+    },
+    {
+      "id": "w11-q9",
+      "topic": "Week 11 · Data Protection Officer",
+      "question": "As per GDPR, when should an organization appoint a Data Protection Officer (DPO)?",
+      "options": [
+        "When there is significant processing of personal data, including sensitive data on a large scale",
+        "Only when organizations are located within the EU.",
+        "Only when organizations handle sensitive personal data.",
+        "A DPO is not mandatory for any organization"
+      ],
+      "answer": 0,
+      "explanation": "GDPR requires a DPO in specified cases, including large-scale regular and systematic monitoring or large-scale processing of special-category data. The exact legal triggers are more specific than 'significant processing' generally."
+    },
+    {
+      "id": "w11-q10",
+      "topic": "Week 11 · Indian Telegraph Act",
+      "question": "True or False: The Indian Telegraph Act, 1885 did not provide interception powers to the government.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": 0,
+      "explanation": "False. Section 5(2) of the Indian Telegraph Act, 1885 provided government powers to intercept messages under specified conditions."
     }
   ]
 }
