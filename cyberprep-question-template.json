@@ -1175,6 +1175,136 @@
       ],
       "answer": 0,
       "explanation": "A Certificate Authority (CA) issues and digitally signs certificates that bind a public key to an identified organization or domain."
+    },
+    {
+      "id": "w9-q1",
+      "topic": "Week 9 · Blockchain",
+      "question": "Which of the following is NOT true about blockchains?",
+      "options": [
+        "Blockchains are implemented as queues",
+        "Blockchain ensures confidentiality through encryption",
+        "Blockchain ensures integrity through hashing",
+        "Properties such as hiding and collision resistance help blockchains make transactions permanent"
+      ],
+      "answer": 0,
+      "explanation": "The supplied answer key marks 'Blockchains are implemented as queues.' Blockchains are generally organized as linked blocks; hashing supports integrity, but blockchain alone does not automatically guarantee confidentiality."
+    },
+    {
+      "id": "w9-q2",
+      "topic": "Week 9 · DES",
+      "question": "What are the block size and key size of the Data Encryption Standard (DES)?",
+      "options": [
+        "Block size: 64 bits, key size: 56 bits",
+        "Block size: 56 bits, key size: 64 bits",
+        "Block size: 64 bits, key size: 64 bits",
+        "Block size: 56 bits, key size: 56 bits"
+      ],
+      "answer": 0,
+      "explanation": "DES processes 64-bit blocks and has an effective key length of 56 bits (the supplied 64-bit key representation includes 8 parity bits)."
+    },
+    {
+      "id": "w9-q3",
+      "topic": "Week 9 · RSA",
+      "question": "What is the purpose of cryptography in the RSA algorithm?",
+      "options": [
+        "To encrypt messages using a public key and decrypt them using a private key",
+        "To encrypt messages using a private key and decrypt them using a public key",
+        "To generate a random key for encrypting messages",
+        "To securely transmit keys over an insecure network"
+      ],
+      "answer": 0,
+      "explanation": "For RSA encryption, the sender encrypts with the recipient's public key and the recipient decrypts with their private key. RSA can also be used for digital signatures."
+    },
+    {
+      "id": "w9-q4",
+      "topic": "Week 9 · Nonrepudiation",
+      "question": "What term describes the concept where customers or partners can be held accountable for transactions, such as online purchases, which they cannot later dispute?",
+      "options": [
+        "Nonrepudiation",
+        "Unquestionability",
+        "Nonreversal",
+        "Indisputability"
+      ],
+      "answer": 0,
+      "explanation": "Nonrepudiation provides evidence that helps prevent a party from credibly denying an action or transaction."
+    },
+    {
+      "id": "w9-q5",
+      "topic": "Week 9 · Personally identifiable information",
+      "question": "In information security, what distinguishes Personally Identifiable Information (PII) from other data?",
+      "options": [
+        "Its uniqueness or proximity to a specific individual.",
+        "Its susceptibility to malware attacks.",
+        "Its encryption level for secure transmission.",
+        "Its accessibility through public databases."
+      ],
+      "answer": 0,
+      "explanation": "PII can identify a person directly or indirectly, including through information linked or reasonably linkable to them."
+    },
+    {
+      "id": "w9-q6",
+      "topic": "Week 9 · Information privacy",
+      "question": "Who is considered the 'Father of Modern Day Information Privacy'?",
+      "options": [
+        "Alan Westin",
+        "Alan Turing",
+        "Louis Brandeis",
+        "Samuel Warren"
+      ],
+      "answer": 0,
+      "explanation": "Alan Westin is widely associated with modern information-privacy scholarship and the concept of individual control over personal information."
+    },
+    {
+      "id": "w9-q7",
+      "topic": "Week 9 · Informational privacy",
+      "question": "What is the core principle of informational privacy?",
+      "options": [
+        "The ability of individuals to decide what personal information they share and with whom.",
+        "The right to remain anonymous at all times.",
+        "The complete elimination of all personal data collection.",
+        "The responsibility of companies to prioritize profits over user privacy."
+      ],
+      "answer": 0,
+      "explanation": "Informational privacy emphasizes people's ability to exercise control over the collection, use, and sharing of information about them."
+    },
+    {
+      "id": "w9-q8",
+      "topic": "Week 9 · Fair Information Practice Principles",
+      "question": "The Fair Information Practice Principles (FIPPs) were first introduced in a report by:",
+      "options": [
+        "The US Secretary's Advisory Committee on Automated Personal Data Systems.",
+        "The Federal Trade Commission (FTC)",
+        "The European Union",
+        "A private industry consortium"
+      ],
+      "answer": 0,
+      "explanation": "The early FIPPs are associated with the 1973 report by the U.S. Department of Health, Education, and Welfare's Secretary's Advisory Committee on Automated Personal Data Systems."
+    },
+    {
+      "id": "w9-q9",
+      "topic": "Week 9 · Fair Information Practice Principles",
+      "question": "Which aspect of data privacy is NOT explicitly addressed in the FIPPs?",
+      "options": [
+        "The right to be forgotten",
+        "The ability to access and correct personal data.",
+        "The requirement for secret personal data record-keeping systems.",
+        "The need for individual consent for data collection."
+      ],
+      "answer": 0,
+      "explanation": "The supplied answer key marks 'The right to be forgotten.' Access and correction are classic fair-information principles; terminology and exact formulations vary by framework."
+    },
+    {
+      "id": "w9-q10",
+      "topic": "Week 9 · Theories of privacy",
+      "question": "Which statement BEST reflects the 'reductionist' view?",
+      "options": [
+        "Privacy is seen as a derivative right, stemming from other fundamental rights like property or bodily security.",
+        "Privacy is a fundamental right, independent of other rights.",
+        "There is no such thing as privacy; it's an outdated concept.",
+        "Privacy is crucial for economic efficiency."
+      ],
+      "answer": 0,
+      "explanation": "A reductionist account explains privacy in terms of other rights or interests rather than treating it as an entirely independent fundamental right."
     }
   ]
 }
