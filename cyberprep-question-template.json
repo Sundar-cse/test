@@ -1047,6 +1047,134 @@
       ],
       "answer": 0,
       "explanation": "Security Information and Event Management (SIEM) centralizes and correlates log and event data to help detect and investigate security threats."
+    },
+    {
+      "id": "w8-q1",
+      "topic": "Week 8 · Risk assessment",
+      "question": "Which of the following statements is NOT true?",
+      "options": [
+        "Risk assessment is the process of identifying risk, assessing its relative magnitude, and taking steps to reduce it to an acceptable level.",
+        "Risk management involves three major undertakings: risk identification, risk assessment, and risk control.",
+        "Risk identification is the recognition, enumeration, and documentation of risks to an organization's information assets.",
+        "Risk identification also involves classifying, valuing, and prioritizing assets."
+      ],
+      "answer": 0,
+      "explanation": "The marked answer is the first statement. Its wording describes the broader risk-management process, including reducing risk to an acceptable level, rather than risk assessment alone."
+    },
+    {
+      "id": "w8-q2",
+      "topic": "Week 8 · Risk appetite",
+      "question": "_____ is the quantity and nature of risk that an organization is willing to accept while balancing security requirements against business needs such as accessibility and usability.",
+      "options": [
+        "Risk appetite",
+        "Risk exposure",
+        "Residual risk",
+        "Risk capacity"
+      ],
+      "answer": 0,
+      "explanation": "Risk appetite is the level and type of risk an organization is willing to accept in pursuit of its objectives."
+    },
+    {
+      "id": "w8-q3",
+      "topic": "Week 8 · Residual risk",
+      "question": "True or False: Residual risk is a combined function of (1) a threat less the effect of threat-reducing safeguards, (2) a vulnerability less the effect of vulnerability-reducing safeguards, and (3) an asset less the effect of asset value-reducing safeguards.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "According to the supplied answer key, this statement is True: residual risk reflects threats, vulnerabilities, and asset impact after safeguards are considered."
+    },
+    {
+      "id": "w8-q4",
+      "topic": "Week 8 · Risk calculations",
+      "question": "An organization estimates that a data breach would result in a Single Loss Expectancy (SLE) of ₹8,00,000. The Annualized Loss Expectancy (ALE) is estimated to be ₹12,00,000. What is the Annualized Rate of Occurrence (ARO)?",
+      "options": [
+        "1.5",
+        "0.5",
+        "1.0",
+        "2.0"
+      ],
+      "answer": 0,
+      "explanation": "ARO = ALE ÷ SLE = ₹12,00,000 ÷ ₹8,00,000 = 1.5 occurrences per year."
+    },
+    {
+      "id": "w8-q5",
+      "topic": "Week 8 · Risk calculations",
+      "question": "An organization's critical server has an Asset Value (AV) of ₹15,00,000 and an Exposure Factor (EF) of 40%. The threat is expected to occur 2 times per year. What is the Annualized Loss Expectancy (ALE)?",
+      "options": [
+        "₹12,00,000",
+        "₹6,00,000",
+        "₹20,00,000",
+        "₹30,00,000"
+      ],
+      "answer": 0,
+      "explanation": "SLE = AV × EF = ₹15,00,000 × 0.40 = ₹6,00,000. ALE = SLE × ARO = ₹6,00,000 × 2 = ₹12,00,000."
+    },
+    {
+      "id": "w8-q6",
+      "topic": "Week 8 · Safeguard cost-benefit",
+      "question": "A company has an Annualized Loss Expectancy (ALE) of ₹20,00,000 before implementing a security safeguard. After implementing the safeguard, ALE is ₹8,00,000. The Annual Cost of Safeguard (ACS) is ₹3,00,000. What is the Cost-Benefit Estimate (CBE)?",
+      "options": [
+        "₹9,00,000",
+        "₹5,00,000",
+        "₹8,00,000",
+        "₹12,00,000"
+      ],
+      "answer": 0,
+      "explanation": "CBE = ALE before − ALE after − ACS = ₹20,00,000 − ₹8,00,000 − ₹3,00,000 = ₹9,00,000."
+    },
+    {
+      "id": "w8-q7",
+      "topic": "Week 8 · Biometrics",
+      "question": "Identify the biometric error measures represented by the numbered curves/point in the figure.",
+      "options": [
+        "1 - FAR, 2 - FRR, 3 - CER",
+        "1 - FRR, 2 - FAR, 3 - CER",
+        "1 - FAR, 2 - CER, 3 - FRR",
+        "1 - CER, 2 - FAR, 3 - FRR"
+      ],
+      "answer": 0,
+      "explanation": "The supplied answer key marks 1 = FAR (False Acceptance Rate), 2 = FRR (False Rejection Rate), and 3 = CER (Crossover Error Rate). The figure itself was not included with the question text."
+    },
+    {
+      "id": "w8-q8",
+      "topic": "Week 8 · Identification and authentication",
+      "question": "Which of the following correctly distinguishes between identification and authentication?",
+      "options": [
+        "Identification is the process of claiming an identity, while authentication verifies that the claimed identity is genuine.",
+        "Identification verifies the user's identity using a password, while authentication is the process of claiming an identity using a username.",
+        "Identification determines what resources a user can access, while authentication records the user's activities.",
+        "Identification and authentication are two terms used for the same process of verifying a user's identity."
+      ],
+      "answer": 0,
+      "explanation": "Identification claims an identity (for example, entering a username); authentication verifies the claim (for example, using a password or biometric)."
+    },
+    {
+      "id": "w8-q9",
+      "topic": "Week 8 · Digital signatures",
+      "question": "An organization wants to ensure that an employee cannot later deny having approved an electronic purchase order. Which mechanism would be most appropriate?",
+      "options": [
+        "Applying a digital signature using the employee's private key",
+        "Encrypting the purchase order using the organization's public key",
+        "Generating a cryptographic hash of the purchase order",
+        "Storing the purchase order in an access-controlled database"
+      ],
+      "answer": 0,
+      "explanation": "A digital signature created with the employee's private key supports authentication and non-repudiation, assuming the key is securely controlled."
+    },
+    {
+      "id": "w8-q10",
+      "topic": "Week 8 · Certificate authorities",
+      "question": "A user wants to verify that a website's public key actually belongs to the organization operating the website. Which entity is primarily responsible for providing this assurance?",
+      "options": [
+        "Certificate Authority (CA)",
+        "Registration Authority (RA)",
+        "Certificate Repository",
+        "Identity Provider (IdP)"
+      ],
+      "answer": 0,
+      "explanation": "A Certificate Authority (CA) issues and digitally signs certificates that bind a public key to an identified organization or domain."
     }
   ]
 }
