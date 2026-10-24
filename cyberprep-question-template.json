@@ -614,8 +614,8 @@
         "Notifications from IDPS, presence of new accounts, unusual system crashes, and use of dormant accounts.",
         "Unusual consumption of computing resources, changes to logs, unusual system crashes, and unfamiliar files."
       ],
-      "answer": 1,
-      "explanation": "Unexpected activity times, partner/peer notifications, unusual crashes, and unknown programs or processes are the indicators identified in this assignment."
+      "answer": 0,
+      "explanation": "Correct answer: option 0. The course categorizes use of dormant accounts, unauthorized changes to logs, presence of hacker tools, and notifications from a partner or peer as definite incident indicators. Unexpected activity times and unknown programs/crashes are generally classified as probable or possible indicators."
     },
     {
       "id": "w4-q9",
