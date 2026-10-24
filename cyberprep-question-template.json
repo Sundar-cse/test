@@ -803,8 +803,8 @@
         "(1) Threat plus the effect of threat-reducing safeguards, (2) vulnerability minus the effect of vulnerability-reducing safeguards, and (3) asset minus the effect of asset value-reducing safeguards.",
         "(1) Threat plus the effect of threat-reducing safeguards, (2) vulnerability plus the effect of vulnerability-reducing safeguards, and (3) asset plus the effect of asset value-reducing safeguards."
       ],
-      "answer": 0,
-      "explanation": "The supplied assignment marks option 1; residual risk accounts for remaining threat, vulnerability, and asset exposure after safeguards."
+      "answer": 1,
+      "explanation": "Correct answer: option 1. Residual risk reflects the remaining threat, vulnerability, and asset exposure after the effects of safeguards are subtracted. Option 0 incorrectly adds the effects of vulnerability- and asset-reducing safeguards."
     },
     {
       "id": "w6-q3",
@@ -892,15 +892,15 @@
     {
       "id": "w6-q9",
       "topic": "Week 6 · Risk calculation",
-      "question": "A hospital EHR system has asset value 52/100. Annual attack probability is 10%, probability of success if attempted is 50%, and a successful attack causes 100% loss. The analysis adds a 10% uncertainty adjustment. Using Risk = (Loss Frequency × Loss Magnitude) + Uncertainty Term, what risk score is reported in the supplied assignment?",
+      "question": "A hospital EHR system has an asset value of 52/100. The annual probability of an attack is 10%, the probability of success if attempted is 50%, and a successful attack causes 100% loss. Using Risk = Loss Frequency × Loss Magnitude, where Loss Frequency = 10% × 50% and Loss Magnitude = 52, what is the risk score before any uncertainty adjustment?",
       "options": [
         "2.75",
         "2.60",
         "2.85",
         "2.25"
       ],
-      "answer": 0,
-      "explanation": "The supplied answer key marks 2.75. The exact result depends on the course's convention for converting likelihood, asset loss, and uncertainty into a score."
+      "answer": 1,
+      "explanation": "Loss Frequency = 0.10 × 0.50 = 0.05. Loss Magnitude = 52 × 1.00 = 52. Risk = 0.05 × 52 = 2.60. The question now explicitly excludes an uncertainty adjustment because the original wording did not define how to calculate it."
     },
     {
       "id": "w6-q10",
@@ -1541,13 +1541,13 @@
       "topic": "Week 11 · Data Protection Officer",
       "question": "As per GDPR, when should an organization appoint a Data Protection Officer (DPO)?",
       "options": [
-        "When there is significant processing of personal data, including sensitive data on a large scale",
+        "When the organization is a public authority (except courts acting judicially), its core activities require large-scale regular and systematic monitoring of individuals, or its core activities involve large-scale processing of special-category data or criminal-offence data.",
         "Only when organizations are located within the EU.",
         "Only when organizations handle sensitive personal data.",
         "A DPO is not mandatory for any organization"
       ],
       "answer": 0,
-      "explanation": "GDPR requires a DPO in specified cases, including large-scale regular and systematic monitoring or large-scale processing of special-category data. The exact legal triggers are more specific than 'significant processing' generally."
+      "explanation": "GDPR Article 37 requires a DPO in specified cases: public authorities (with a court-related exception), large-scale regular and systematic monitoring of individuals, or large-scale processing of special-category personal data or data relating to criminal convictions and offences. The rule is not simply based on any 'significant' processing."
     },
     {
       "id": "w11-q10",
