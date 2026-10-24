@@ -912,6 +912,141 @@
       ],
       "answer": 0,
       "explanation": "True. A risk score helps compare and prioritize risks affecting information assets."
+    },
+    {
+      "id": "w7-q1",
+      "topic": "Week 7 · Processor protection",
+      "question": "Which of the following statements correctly describes the processor protection ring model?",
+      "options": [
+        "The kernel executes in the highest privilege level, and no software is more privileged than the kernel.",
+        "User programs execute in Ring 0 because they require maximum privileges.",
+        "Ring 3 is the most privileged ring used by the operating system.",
+        "All four protection rings are equally privileged."
+      ],
+      "answer": 0,
+      "explanation": "In the traditional protection-ring model, Ring 0 is the most privileged level and is typically used by the kernel."
+    },
+    {
+      "id": "w7-q2",
+      "topic": "Week 7 · Public-key encryption",
+      "question": "Which of the following is NOT true with respect to Public-Key Encryption?",
+      "options": [
+        "The sender and receiver must share the algorithm and the key.",
+        "One algorithm is used with a pair of keys, one for encryption and one for decryption.",
+        "The sender and receiver must each have one of the matched pair of keys.",
+        "One of the two keys must be kept secret."
+      ],
+      "answer": 0,
+      "explanation": "Public-key encryption uses a matched key pair; the private key is kept secret, while the public key can be shared."
+    },
+    {
+      "id": "w7-q3",
+      "topic": "Week 7 · Hash functions",
+      "question": "Which of the following statements are true? Select all that apply.",
+      "options": [
+        "A hash function maps a variable-length message into a fixed-length hash value, or message digest.",
+        "Hash functions can be used for intrusion detection and virus detection.",
+        "A cryptographic hash function can be used to construct a pseudorandom function (PRF) or a pseudorandom number generator (PRNG).",
+        "The compression function used in secure hash algorithms is based on either a public-key cryptographic algorithm or a stream cipher."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "multi": true,
+      "explanation": "Hash functions produce fixed-length digests and are useful in integrity and detection systems. Cryptographic hashes can also be used in PRFs and PRNG constructions. The fourth statement is not correct."
+    },
+    {
+      "id": "w7-q4",
+      "topic": "Week 7 · HTTPS",
+      "question": "HTTPS refers to the combination of _____ and _____ to implement secure communication between a Web browser and a Web server.",
+      "options": [
+        "HTTP, SSL",
+        "HTTP, TCP",
+        "UDP, TCP",
+        "TCP, SSL"
+      ],
+      "answer": 0,
+      "explanation": "The expected assignment answer is HTTP with SSL. Modern HTTPS uses TLS, which succeeded SSL."
+    },
+    {
+      "id": "w7-q5",
+      "topic": "Week 7 · Accountability and auditability",
+      "question": "_____ is the principle that an individual is entrusted to safeguard and control equipment, keying material, and information and is answerable to the proper authority for their loss or misuse, whereas _____ ensures actions and events can be traced and reviewed through records and evidence.",
+      "options": [
+        "Accountability, Auditability",
+        "Auditability, Accountability",
+        "Confidentiality, Auditability",
+        "Responsibility, Accountability"
+      ],
+      "answer": 0,
+      "explanation": "Accountability means being answerable for safeguarding assets and their proper use. Auditability means actions can be traced and reviewed using records and evidence."
+    },
+    {
+      "id": "w7-q6",
+      "topic": "Week 7 · Firewalls",
+      "question": "Match each firewall type with its description: 1. Stateful inspection firewall; 2. Packet filters; 3. Proxy firewalls; 4. Next Generation Firewalls (NGFW).",
+      "options": [
+        "1-c, 2-a, 3-b, 4-d",
+        "1-c, 2-d, 3-b, 4-a",
+        "1-b, 2-a, 3-c, 4-d",
+        "1-d, 2-c, 3-b, 4-a"
+      ],
+      "answer": 0,
+      "explanation": "Stateful inspection considers connection state, packet filters inspect individual packets against rules, proxy firewalls act as application gateways, and NGFWs add application awareness and advanced threat controls."
+    },
+    {
+      "id": "w7-q7",
+      "topic": "Week 7 · VPN",
+      "question": "_____ can mask your Internet Protocol (IP) address and create a private connection when using public Wi-Fi.",
+      "options": [
+        "VPN",
+        "IPSEC",
+        "SSL",
+        "DNS"
+      ],
+      "answer": 0,
+      "explanation": "A Virtual Private Network (VPN) creates an encrypted tunnel and can mask your public-facing IP address."
+    },
+    {
+      "id": "w7-q8",
+      "topic": "Week 7 · Cyberattack stages",
+      "question": "Match each stage with its description: 1. Reconnaissance; 2. Exploitation; 3. Weaponization; 4. Command and Control.",
+      "options": [
+        "1-d, 2-c, 3-a, 4-b",
+        "1-d, 2-b, 3-a, 4-c",
+        "1-c, 2-d, 3-a, 4-b",
+        "1-b, 2-c, 3-a, 4-d"
+      ],
+      "answer": 0,
+      "explanation": "Reconnaissance gathers target information; weaponization prepares a tailored malicious payload; exploitation triggers a vulnerability; command and control provides remote communication with a compromised system."
+    },
+    {
+      "id": "w7-q9",
+      "topic": "Week 7 · Denial-of-service attacks",
+      "question": "A figure shows several compromised systems sending traffic through the Internet toward a single target server. Which attack does it depict?",
+      "options": [
+        "DDoS",
+        "Brute Force Attack",
+        "Session Hijacking",
+        "DNS Spoofing"
+      ],
+      "answer": 0,
+      "explanation": "A Distributed Denial-of-Service (DDoS) attack uses multiple systems to flood a target with traffic, potentially making its service unavailable."
+    },
+    {
+      "id": "w7-q10",
+      "topic": "Week 7 · SIEM",
+      "question": "Which of the following is the primary function of a SIEM system?",
+      "options": [
+        "Collecting, correlating, and analyzing security logs and events",
+        "Encrypting all network traffic",
+        "Blocking all unauthorized websites",
+        "Performing software vulnerability scanning"
+      ],
+      "answer": 0,
+      "explanation": "Security Information and Event Management (SIEM) centralizes and correlates log and event data to help detect and investigate security threats."
     }
   ]
 }
