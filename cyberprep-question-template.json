@@ -1305,6 +1305,136 @@
       ],
       "answer": 0,
       "explanation": "A reductionist account explains privacy in terms of other rights or interests rather than treating it as an entirely independent fundamental right."
+    },
+    {
+      "id": "w10-q1",
+      "topic": "Week 10 · Privacy paradox",
+      "question": "What is the Privacy Paradox?",
+      "options": [
+        "The discrepancy between users' expressed privacy concerns and their actual behavior in online environments.",
+        "The balance between privacy protection and data sharing in online environments.",
+        "The phenomenon where individuals prioritize convenience over privacy.",
+        "The psychological phenomenon where individuals are unaware of the impact of their online behavior on their privacy."
+      ],
+      "answer": 0,
+      "explanation": "The privacy paradox is the gap between what people say about privacy and how they actually behave online."
+    },
+    {
+      "id": "w10-q2",
+      "topic": "Week 10 · Pseudonymization",
+      "question": "Which of the following is NOT an approach to pseudonymization?",
+      "options": [
+        "None of the above",
+        "Masking",
+        "Tokenization",
+        "Hashing"
+      ],
+      "answer": 0,
+      "explanation": "According to the supplied answer key, none of these is excluded: masking, tokenization, and hashing can all be used as pseudonymization approaches, depending on implementation."
+    },
+    {
+      "id": "w10-q3",
+      "topic": "Week 10 · Pseudonymization",
+      "question": "Which of the following statements about pseudonymization is NOT true?",
+      "options": [
+        "None of the above",
+        "Pseudonymization is a technique proposed by frameworks like Privacy by Design offering practical substitutes for using raw data, especially when sensitive.",
+        "Various pseudonymization techniques enable you to preserve format or understand the original intention for that data.",
+        "Pseudonymization methods often maintain the capability to establish connections between data, which can be useful when linking datasets using personal identifiers or other sensitive columns."
+      ],
+      "answer": 0,
+      "explanation": "The supplied answer key marks 'None of the above': the other statements describe uses and properties of pseudonymization."
+    },
+    {
+      "id": "w10-q4",
+      "topic": "Week 10 · Privacy concepts",
+      "question": "Externalization of restricted, but accurate information to a specific entity is known as:",
+      "options": [
+        "Security",
+        "Anonymity",
+        "Secrecy",
+        "Confidentiality"
+      ],
+      "answer": 0,
+      "explanation": "The supplied answer key marks Security. Keep in mind that in many information-security definitions, confidentiality is the property of restricting disclosure to authorized entities; follow the course's terminology for this assignment."
+    },
+    {
+      "id": "w10-q5",
+      "topic": "Week 10 · Differential privacy",
+      "question": "Differential privacy is:",
+      "options": [
+        "All the above",
+        "A method of probabilistically limiting the amount of information an attacker can gain when data is released.",
+        "A method for measuring and monitoring the loss of privacy experienced by an individual in a released dataset.",
+        "One of the effective methods for providing individuals in a dataset with plausible deniability while still performing data analysis."
+      ],
+      "answer": 0,
+      "explanation": "The supplied answer key marks 'All the above'; differential privacy limits how much the output of an analysis can reveal about any one individual."
+    },
+    {
+      "id": "w10-q6",
+      "topic": "Week 10 · GDPR",
+      "question": "Which regulatory framework evolved into the General Data Protection Regulation (GDPR) in 2018?",
+      "options": [
+        "EU Data Protection Directive",
+        "FTC privacy principles",
+        "APEC privacy framework",
+        "OECD Guidelines"
+      ],
+      "answer": 0,
+      "explanation": "The GDPR replaced the EU Data Protection Directive 95/46/EC."
+    },
+    {
+      "id": "w10-q7",
+      "topic": "Week 10 · FIPPs",
+      "question": "In the context of privacy, what does the acronym FIPP stand for?",
+      "options": [
+        "Fair Information Practice Principles",
+        "Freedom of Information Processing Practices",
+        "Federal Internet Privacy Protections",
+        "Financial Information Protection Protocols"
+      ],
+      "answer": 0,
+      "explanation": "FIPPs stands for Fair Information Practice Principles."
+    },
+    {
+      "id": "w10-q8",
+      "topic": "Week 10 · Identifiers",
+      "question": "Which of the following statements is true?",
+      "options": [
+        "Identifiers can uniquely identify an individual, while quasi-identifiers cannot on their own.",
+        "Quasi-identifiers are more valuable for targeted advertising than identifiers.",
+        "Identifiers are always anonymized, whereas quasi-identifiers are non-anonymized.",
+        "Identifiers are not considered personal data whereas quasi-identifiers are."
+      ],
+      "answer": 0,
+      "explanation": "Direct identifiers can identify someone; quasi-identifiers may identify someone when combined with other information."
+    },
+    {
+      "id": "w10-q9",
+      "topic": "Week 10 · K-anonymity",
+      "question": "What are the two techniques used in k-anonymization?",
+      "options": [
+        "Suppression and generalization",
+        "Randomization and suppression",
+        "Generalization and encryption",
+        "Suppression and encryption"
+      ],
+      "answer": 0,
+      "explanation": "K-anonymity commonly uses generalization (making values less specific) and suppression (removing selected values) to reduce re-identification risk."
+    },
+    {
+      "id": "w10-q10",
+      "topic": "Week 10 · Privacy-utility trade-off",
+      "question": "What does the optimal point on an R-U (risk-utility) map represent?",
+      "options": [
+        "Maximizing data usefulness while maintaining acceptable privacy risks.",
+        "Complete elimination of all data privacy risks by fully anonymizing all data.",
+        "Using all PII data and extracting full value without privacy concerns.",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "The optimal point balances useful data analysis with an acceptable level of privacy risk."
     }
   ]
 }
