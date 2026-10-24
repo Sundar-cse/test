@@ -779,6 +779,139 @@
       ],
       "answer": 0,
       "explanation": "An ISSP addresses a particular issue or resource, such as acceptable use of email, the internet, or a technology."
+    },
+    {
+      "id": "w6-q1",
+      "topic": "Week 6 · Risk assessment",
+      "question": "Match the following risk terms with their definitions:\n\n1. Risk Assessment\n2. Risk Identification\n3. Risk Management\n4. Risk Control\n\na. Identifying risk, assessing its magnitude, and taking steps to reduce it to an acceptable level\nb. Recognizing, examining, and documenting risks to IT assets\nc. Implementing safeguards to reduce risk to an acceptable level\nd. Determining the extent to which information assets are exposed to risk",
+      "options": [
+        "1 – d, 2 – b, 3 – a, 4 – c",
+        "1 – a, 2 – b, 3 – d, 4 – c",
+        "1 – c, 2 – b, 3 – a, 4 – d",
+        "1 – d, 2 – c, 3 – a, 4 – b"
+      ],
+      "answer": 0,
+      "explanation": "Risk assessment determines exposure; identification documents risks; management identifies and reduces risk; control implements safeguards."
+    },
+    {
+      "id": "w6-q2",
+      "topic": "Week 6 · Residual risk",
+      "question": "Residual risk after risk management is a combined function of which factors?",
+      "options": [
+        "(1) Threat minus the effect of threat-reducing safeguards, (2) vulnerability plus the effect of vulnerability-reducing safeguards, and (3) asset plus the effect of asset value-reducing safeguards.",
+        "(1) Threat minus the effect of threat-reducing safeguards, (2) vulnerability minus the effect of vulnerability-reducing safeguards, and (3) asset minus the effect of asset value-reducing safeguards.",
+        "(1) Threat plus the effect of threat-reducing safeguards, (2) vulnerability minus the effect of vulnerability-reducing safeguards, and (3) asset minus the effect of asset value-reducing safeguards.",
+        "(1) Threat plus the effect of threat-reducing safeguards, (2) vulnerability plus the effect of vulnerability-reducing safeguards, and (3) asset plus the effect of asset value-reducing safeguards."
+      ],
+      "answer": 0,
+      "explanation": "The supplied assignment marks option 1; residual risk accounts for remaining threat, vulnerability, and asset exposure after safeguards."
+    },
+    {
+      "id": "w6-q3",
+      "topic": "Week 6 · Risk assessment",
+      "question": "Which of the following is NOT a component of risk assessment?",
+      "options": [
+        "Specify asset vulnerabilities",
+        "Determine loss frequency",
+        "Calculate risk",
+        "Assess risk acceptability"
+      ],
+      "answer": 0,
+      "explanation": "Specifying asset vulnerabilities is part of risk identification; risk assessment evaluates likelihood, impact, and acceptability."
+    },
+    {
+      "id": "w6-q4",
+      "topic": "Week 6 · Risk appetite",
+      "question": "________ is the quantity and nature of risk an organization is willing to accept when balancing security and accessibility.",
+      "options": [
+        "Risk appetite",
+        "Residual risk",
+        "Loss magnitude",
+        "Loss frequency"
+      ],
+      "answer": 0,
+      "explanation": "Risk appetite is the amount and type of risk an organization is willing to accept."
+    },
+    {
+      "id": "w6-q5",
+      "topic": "Week 6 · Risk identification",
+      "question": "Which are components of risk identification? (Select all that apply.)",
+      "options": [
+        "Identify, inventory, and categorize assets",
+        "Classify, value, and prioritize assets",
+        "Specify asset vulnerabilities",
+        "Evaluate loss magnitude"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "multi": true,
+      "explanation": "Risk identification includes asset discovery, classification, valuation, prioritization, and identifying vulnerabilities. Evaluating loss magnitude belongs to risk analysis/assessment."
+    },
+    {
+      "id": "w6-q6",
+      "topic": "Week 6 · Security classification",
+      "question": "Which U.S. Classified National Security Information (NSI) classification applies when unauthorized disclosure could reasonably be expected to cause serious damage to national security?",
+      "options": [
+        "Secret",
+        "Top Secret",
+        "Confidential",
+        "Internal"
+      ],
+      "answer": 0,
+      "explanation": "Secret corresponds to serious damage; Top Secret is exceptionally grave damage, while Confidential is damage to national security."
+    },
+    {
+      "id": "w6-q7",
+      "topic": "Week 6 · Threat categories",
+      "question": "Match each threat category with its example:\n\n1. Espionage or trespass\n2. Sabotage or vandalism\n3. Information extortion\n4. Theft\n\na. Damage to or destruction of systems or information\nb. Unauthorized access and/or data collection\nc. Illegal confiscation of equipment or information\nd. Threatening to disclose information unless demands are met",
+      "options": [
+        "1 – b, 2 – a, 3 – d, 4 – c",
+        "1 – a, 2 – b, 3 – c, 4 – d",
+        "1 – c, 2 – a, 3 – d, 4 – b",
+        "1 – d, 2 – b, 3 – c, 4 – a"
+      ],
+      "answer": 0,
+      "explanation": "Espionage/trespass is unauthorized access; sabotage damages systems; extortion uses threats to force demands; theft takes equipment or information."
+    },
+    {
+      "id": "w6-q8",
+      "topic": "Week 6 · Threat categories",
+      "question": "An attacker compromises a router, enters an organization's network, encrypts critical data, and demands payment for the decryption key. How is this scenario best classified?",
+      "options": [
+        "Information extortion",
+        "Sabotage or vandalism",
+        "Espionage or trespass",
+        "Software attacks"
+      ],
+      "answer": 0,
+      "explanation": "The ransom demand that threatens continued loss of access is information extortion."
+    },
+    {
+      "id": "w6-q9",
+      "topic": "Week 6 · Risk calculation",
+      "question": "A hospital EHR system has asset value 52/100. Annual attack probability is 10%, probability of success if attempted is 50%, and a successful attack causes 100% loss. The analysis adds a 10% uncertainty adjustment. Using Risk = (Loss Frequency × Loss Magnitude) + Uncertainty Term, what risk score is reported in the supplied assignment?",
+      "options": [
+        "2.75",
+        "2.60",
+        "2.85",
+        "2.25"
+      ],
+      "answer": 0,
+      "explanation": "The supplied answer key marks 2.75. The exact result depends on the course's convention for converting likelihood, asset loss, and uncertainty into a score."
+    },
+    {
+      "id": "w6-q10",
+      "topic": "Week 6 · Risk assessment",
+      "question": "True or False: The goal of risk assessment is to assign a risk rating or score representing the relative risk for a specific vulnerability of an information asset.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "True. A risk score helps compare and prioritize risks affecting information assets."
     }
   ]
 }
