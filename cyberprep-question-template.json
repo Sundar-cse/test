@@ -986,7 +986,7 @@
     {
       "id": "w7-q6",
       "topic": "Week 7 · Firewalls",
-      "question": "Match each firewall type with its description: 1. Stateful inspection firewall; 2. Packet filters; 3. Proxy firewalls; 4. Next Generation Firewalls (NGFW).",
+      "question": "Match each firewall type with its description. Types: 1. Stateful inspection firewall; 2. Packet filters; 3. Proxy firewalls; 4. Next Generation Firewalls (NGFW). Descriptions: a. Examines packet headers such as source/destination IP addresses, ports, and protocols; b. Acts as an intermediary and can inspect application-layer requests; c. Tracks the state of active network connections; d. Adds advanced features such as deep packet inspection, application awareness, and intrusion prevention. Choose the correct matching set.",
       "options": [
         "1-c, 2-a, 3-b, 4-d",
         "1-c, 2-d, 3-b, 4-a",
@@ -994,7 +994,7 @@
         "1-d, 2-c, 3-b, 4-a"
       ],
       "answer": 0,
-      "explanation": "Stateful inspection considers connection state, packet filters inspect individual packets against rules, proxy firewalls act as application gateways, and NGFWs add application awareness and advanced threat controls."
+      "explanation": "Stateful inspection tracks active connections (c); packet filters inspect packet headers (a); proxy firewalls act as intermediaries at the application layer (b); NGFWs add capabilities such as deep inspection and intrusion prevention (d)."
     },
     {
       "id": "w7-q7",
@@ -1012,7 +1012,7 @@
     {
       "id": "w7-q8",
       "topic": "Week 7 · Cyberattack stages",
-      "question": "Match each stage with its description: 1. Reconnaissance; 2. Exploitation; 3. Weaponization; 4. Command and Control.",
+      "question": "Match each cyberattack stage with its description. Stages: 1. Reconnaissance; 2. Exploitation; 3. Weaponization; 4. Command and Control. Descriptions: a. Preparing an exploit/payload to use against the target; b. A compromised system communicates with the attacker for instructions; c. Taking advantage of a vulnerability; d. Gathering information about the target. Choose the correct matching set.",
       "options": [
         "1-d, 2-c, 3-a, 4-b",
         "1-d, 2-b, 3-a, 4-c",
@@ -1020,12 +1020,12 @@
         "1-b, 2-c, 3-a, 4-d"
       ],
       "answer": 0,
-      "explanation": "Reconnaissance gathers target information; weaponization prepares a tailored malicious payload; exploitation triggers a vulnerability; command and control provides remote communication with a compromised system."
+      "explanation": "Reconnaissance gathers target information (d); exploitation uses a vulnerability (c); weaponization prepares the exploit/payload (a); command and control lets the compromised system receive attacker instructions (b)."
     },
     {
       "id": "w7-q9",
       "topic": "Week 7 · Denial-of-service attacks",
-      "question": "A figure shows several compromised systems sending traffic through the Internet toward a single target server. Which attack does it depict?",
+      "question": "A group of compromised computers sends a large volume of traffic toward one target server at the same time, overwhelming its resources and making the service unavailable. Which attack does this describe?",
       "options": [
         "DDoS",
         "Brute Force Attack",
@@ -1033,7 +1033,7 @@
         "DNS Spoofing"
       ],
       "answer": 0,
-      "explanation": "A Distributed Denial-of-Service (DDoS) attack uses multiple systems to flood a target with traffic, potentially making its service unavailable."
+      "explanation": "A Distributed Denial-of-Service (DDoS) attack uses multiple compromised systems to overwhelm a target service with traffic."
     },
     {
       "id": "w7-q10",
@@ -1127,15 +1127,15 @@
     {
       "id": "w8-q7",
       "topic": "Week 8 · Biometrics",
-      "question": "Identify the biometric error measures represented by the numbered curves/point in the figure.",
+      "question": "Which statement correctly defines the three common biometric error measures: False Acceptance Rate (FAR), False Rejection Rate (FRR), and Crossover Error Rate (CER)?",
       "options": [
-        "1 - FAR, 2 - FRR, 3 - CER",
-        "1 - FRR, 2 - FAR, 3 - CER",
-        "1 - FAR, 2 - CER, 3 - FRR",
-        "1 - CER, 2 - FAR, 3 - FRR"
+        "FAR is the rate impostors are incorrectly accepted; FRR is the rate genuine users are incorrectly rejected; CER is the point where FAR and FRR are equal.",
+        "FAR is the rate genuine users are incorrectly rejected; FRR is the rate impostors are incorrectly accepted; CER is the total number of enrolled users.",
+        "FAR measures system availability; FRR measures password strength; CER measures encryption speed.",
+        "FAR and FRR both measure successful authentication, while CER measures the number of biometric samples stored."
       ],
       "answer": 0,
-      "explanation": "The supplied answer key marks 1 = FAR (False Acceptance Rate), 2 = FRR (False Rejection Rate), and 3 = CER (Crossover Error Rate). The figure itself was not included with the question text."
+      "explanation": "FAR measures impostors wrongly accepted, FRR measures legitimate users wrongly rejected, and CER (also called EER in many contexts) is the operating point where FAR and FRR are equal."
     },
     {
       "id": "w8-q8",
@@ -1182,12 +1182,12 @@
       "question": "Which of the following is NOT true about blockchains?",
       "options": [
         "Blockchains are implemented as queues",
-        "Blockchain ensures confidentiality through encryption",
+        "In a typical public blockchain, transactions can be linked through cryptographic hashes to help protect ledger integrity.",
         "Blockchain ensures integrity through hashing",
         "Properties such as hiding and collision resistance help blockchains make transactions permanent"
       ],
       "answer": 0,
-      "explanation": "The supplied answer key marks 'Blockchains are implemented as queues.' Blockchains are generally organized as linked blocks; hashing supports integrity, but blockchain alone does not automatically guarantee confidentiality."
+      "explanation": "The incorrect statement is that blockchains are implemented as queues. Blockchains are structured as linked blocks; cryptographic hashes help link blocks and make unauthorized changes detectable. Confidentiality is not guaranteed by every blockchain, so the options have been revised to avoid a second ambiguous answer."
     },
     {
       "id": "w9-q2",
@@ -1355,8 +1355,8 @@
         "Secrecy",
         "Confidentiality"
       ],
-      "answer": 0,
-      "explanation": "The supplied answer key marks Security. Keep in mind that in many information-security definitions, confidentiality is the property of restricting disclosure to authorized entities; follow the course's terminology for this assignment."
+      "answer": 3,
+      "explanation": "Correct answer: Confidentiality. Confidentiality means restricting disclosure of information to authorized people or entities. The original answer key incorrectly marked Security."
     },
     {
       "id": "w10-q5",
