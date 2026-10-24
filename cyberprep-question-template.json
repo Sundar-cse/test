@@ -640,6 +640,145 @@
       ],
       "answer": 2,
       "explanation": "A hot site is a fully equipped alternative facility that can support operations quickly after a disruption."
+    },
+    {
+      "id": "w5-q1",
+      "topic": "Week 5 · Security policies",
+      "question": "Identify the correct statement.",
+      "options": [
+        "Practices are examples of actions that illustrate compliance with policies.",
+        "Guidelines are examples of actions that illustrate compliance with policies.",
+        "Procedures are non-mandatory recommendations that employees may use as a reference when complying with a policy.",
+        "Standards are step-by-step instructions that guide employees in following policies and guidelines."
+      ],
+      "answer": 0,
+      "explanation": "Practices are actions that demonstrate how policies are followed. Guidelines are recommendations, while procedures provide step-by-step instructions."
+    },
+    {
+      "id": "w5-q2",
+      "topic": "Week 5 · EISP",
+      "question": "Which of the following is NOT a component of Enterprise Information Security Policies (EISP)?",
+      "options": [
+        "Authorized access and usage of equipment",
+        "Statement of Purpose",
+        "Need for Information Security",
+        "Information Security Responsibilities and Roles"
+      ],
+      "answer": 0,
+      "explanation": "Authorized access and usage of a particular resource is typically addressed by an issue-specific policy (ISSP), while EISP covers organization-wide security direction, purpose, and roles."
+    },
+    {
+      "id": "w5-q3",
+      "topic": "Week 5 · Policy enforceability",
+      "question": "Which criteria help make a policy effective and legally enforceable? (Select all that apply.)",
+      "options": [
+        "The organization can demonstrate that the policy was readily available for employee review.",
+        "The organization can demonstrate that the document was disseminated in an intelligible form.",
+        "The organization can demonstrate that the employee understands the requirements and content of the policy.",
+        "The organization can demonstrate that the employee agrees to comply through an act or affirmation."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "multi": true,
+      "explanation": "All four criteria help demonstrate that employees had access to, understood, and agreed to comply with the policy."
+    },
+    {
+      "id": "w5-q4",
+      "topic": "Week 5 · ISSP approaches",
+      "question": "Which approaches are used to create and manage issue-specific security policies (ISSPs) within an organization? (Select all that apply.)",
+      "options": [
+        "Independent ISSP documents, each tailored to a specific issue.",
+        "A single comprehensive ISSP document that covers all issues.",
+        "A modular ISSP document that unifies policy creation and administration while preserving each issue's requirements.",
+        "A hierarchical ISSP structure in which all issue-specific requirements are incorporated directly into the EISP."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "multi": true,
+      "explanation": "The three common approaches are independent documents, one comprehensive document, or a modular document. Incorporating every issue-specific requirement directly into the EISP is not the standard approach."
+    },
+    {
+      "id": "w5-q5",
+      "topic": "Week 5 · SysSP",
+      "question": "Which statement is NOT true?",
+      "options": [
+        "Technical-specification SysSPs express management's intent for technology acquisition, implementation, configuration, and management from a business perspective.",
+        "SysSPs can function as standards or procedures for configuring or maintaining systems.",
+        "SysSPs can be grouped into managerial guidance and technical specifications.",
+        "System-specific policies may be developed alongside their related ISSPs or prepared in advance."
+      ],
+      "answer": 0,
+      "explanation": "The technical-specifications SysSP describes technical details for implementing and configuring technology. Managerial guidance is the part that expresses management's intent from a business perspective."
+    },
+    {
+      "id": "w5-q6",
+      "topic": "Week 5 · Access control",
+      "question": "Which item lists details about user access permissions and privileges for an organizational asset or resource, focusing on the assets and the users who can access them?",
+      "options": [
+        "Access Control List (ACL)",
+        "Capabilities Table",
+        "Configuration rules",
+        "User policies"
+      ],
+      "answer": 0,
+      "explanation": "An ACL associates a resource with users or groups and the permissions they have on it."
+    },
+    {
+      "id": "w5-q7",
+      "topic": "Week 5 · Access control",
+      "question": "True or False: Capability tables combine the information in Access Control Lists and the Access Control Matrix.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": 0,
+      "explanation": "False in the wording used by this assignment. An access control matrix is a general model; ACLs and capability lists are alternative ways of representing its permissions."
+    },
+    {
+      "id": "w5-q8",
+      "topic": "Week 5 · Configuration rules",
+      "question": "________ govern how a security system reacts to the data it receives.",
+      "options": [
+        "Configuration rules",
+        "User policies",
+        "Access Control Lists",
+        "File integrity baselines"
+      ],
+      "answer": 0,
+      "explanation": "Configuration rules specify how a security system or technology responds to incoming data or events."
+    },
+    {
+      "id": "w5-q9",
+      "topic": "Week 5 · Cyber hygiene",
+      "question": "Which statement most accurately distinguishes cyber hygiene from cybersecurity?",
+      "options": [
+        "Cyber hygiene involves routine practices for maintaining digital health, whereas cybersecurity encompasses broader strategies, technologies, and incident response.",
+        "Cyber hygiene is hardware-focused, while cybersecurity is software-focused.",
+        "Cyber hygiene is reactive, while cybersecurity is always proactive.",
+        "Cyber hygiene focuses only on personal devices, while cybersecurity is limited to organizations."
+      ],
+      "answer": 0,
+      "explanation": "Cyber hygiene refers to routine security habits; cybersecurity is the broader discipline of protecting systems, networks, and information."
+    },
+    {
+      "id": "w5-q10",
+      "topic": "Week 5 · ISSP",
+      "question": "Which organizational policy offers detailed, targeted guidance to all members regarding the use of a resource, process, or technology?",
+      "options": [
+        "Issue-specific security policy (ISSP)",
+        "System-specific security policy (SysSP)",
+        "General or security program policy",
+        "Enterprise information security policy (EISP)"
+      ],
+      "answer": 0,
+      "explanation": "An ISSP addresses a particular issue or resource, such as acceptable use of email, the internet, or a technology."
     }
   ]
 }
